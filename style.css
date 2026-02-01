@@ -16,7 +16,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     /* Cute background pattern using CSS gradients */
     background-color: #fff0f3;
-    background-image: url('videos/bg.jpg');
+    background-image: url('videos/bg.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -268,3 +268,4 @@ h2 {
     }
 
 }
+
