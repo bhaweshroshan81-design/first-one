@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Question for You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="bounce">What do i think about all the time? 🤔</h1>
+        </header>
+
+        <div class="options-container">
+            <!-- 
+                 TIP: To use different videos, change data-video="filename.mp4" 
+                 and make sure the file is in the folder.
+            -->
+            <button class="option-btn" data-video="videos/love.mp4">
+                <span class="emoji"></span> My Future
+            </button>
+            <button class="option-btn" data-video="videos/love.mp4">
+                <span class="emoji"></span> Except You
+            </button>
+            <button class="option-btn" data-video="videos/love.mp4">
+                <span class="emoji"></span> YOU
+            </button>
+        </div>
+    </div>
+
+    <!-- Video Modal Overlay -->
+    <div id="video-overlay" class="hidden">
+        <div class="video-wrapper">
+            <button id="close-btn">✖</button>
+            <!-- Placeholder video until user adds 'surprise.mp4' -->
+            <!-- Placeholder video until user adds files -->
+            <video id="surprise-video" controls src="videos/love.mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="note">(If the video doesn't play, please make sure 'surprise.mp4' is in the folder!)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
